@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Temp_Converter", "CS_Temp_Converter\CS_Temp_Converter.csproj", "{4DB1A11A-FAE0-4B92-B871-7463194F5213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB1A11A-FAE0-4B92-B871-7463194F5213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB1A11A-FAE0-4B92-B871-7463194F5213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB1A11A-FAE0-4B92-B871-7463194F5213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB1A11A-FAE0-4B92-B871-7463194F5213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

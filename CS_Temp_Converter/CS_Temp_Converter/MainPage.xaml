@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CS_Temp_Converter.MainPage">
+    
+    <StackLayout Padding="15">
+        <Label Text="Convert Temperature" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+        
+        <Label Text="From: " FontSize="Medium" />
+        <Picker x:Name="fromTempPicker" FontSize="Medium" />
+        
+        <Label Text="To: " FontSize="Medium" />
+        <Picker x:Name="toTempPicker" FontSize="Medium" />
+        
+        <Label Text="Input: " FontSize="Medium" />
+        <Entry x:Name="tempIn" FontSize="Medium" Keyboard="Numeric" />
+        
+        <Button Text="Convert" FontSize="Medium" Clicked="ConvertButton_Clicked" />
+        
+        <ListView x:Name="lstOut" />
+    </StackLayout>
+</ContentPage>   
