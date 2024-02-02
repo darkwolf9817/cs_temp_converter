@@ -1,4 +1,7 @@
-﻿using Android.App.Usage;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Maui.Controls;
 
 namespace CS_Temp_Converter;
 
